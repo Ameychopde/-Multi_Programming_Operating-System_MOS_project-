@@ -3,11 +3,11 @@ This project is based on creating a Multi-Programming Operating System (MOS).
 # What is a Multi-Programming Operating System (MOS)?
 A Multi-Programming Operating System (MOS) is an operating system that allows multiple programs to run concurrently on a computer. This is achieved by allowing each program to run for a short time, called a time slice, and then switching to the next program. This approach allows the computer to efficiently use its resources, such as memory and CPU time, and can improve the overall performance and responsiveness of the system. Some examples of MOS include Windows and Linux. The project on MOS is typically focused on the design and implementation of such an operating system, including the development of the scheduler, memory management, and other system-level components.
 # Assumptions
-•	Jobs may have program errors
-•	PI interrupt for program errors introduced
-•	No physical separation between jobs
-•	Job outputs separated in output file by 2 blank lines
-•	Paging introduced, page table stored in real memory
+* Jobs may have program errors
+* PI interrupt for program errors introduced
+* No physical separation between jobs
+* Job outputs separated in output file by 2 blank lines
+* Paging introduced, page table stored in real memory
 •	Program pages allocated one of 30 memory block using random number generator
 •	Load and run one program at a time
 •	Time limit, line limit, out-of-data errors introduced
